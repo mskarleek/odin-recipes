@@ -13,24 +13,41 @@ h1 {
     font-size: 25px;
 }
 
+.subheader {
+    border-bottom:4px solid black;
+}
+  
+.subheader .h2 {
+    display:inline-block;
+    background-color:#111;
+    color:#fff;
+    font-size:24px;
+    font-family: 'Pacifico', cursive;
+    font-weight:bold;
+    padding:10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
 h1 a {
     text-decoration: none;
 }
 
 h2 {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Pacifico', cursive;
     font-size: 25px;
     border-radius: 10px;
+    font-weight: bold;
 }
 
 h3 {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Pacifico', cursive;
     font-size: 18px;
+    font-weight: bold;
        
 }
 
 #content {
-    background-color: rgba(255, 255, 255, 0.900);
+    background-color: rgba(255, 255, 255, 0.900);  
     color: black;
     padding: 15px;
     width:50%;
@@ -46,16 +63,46 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-position: top;
+    background-position: cover;
     background-image: url("../img/background.jpg");
     width: 100%;
     height: 100%;
 }
 
 .recipes img {
+    margin-top: 14px;
     border-radius: 50%;
     text-align: center;
     max-width: 100%; display: inline-block; 
+}
+
+.page img {
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+.button {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 10px;
+  }
+
+.button a {
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #4f9cca;
+    color: white;
 }
 
 @media (min-width: 420px) {
